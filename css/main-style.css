@@ -67,6 +67,7 @@ body {
     height: 1076px;
     margin-top: -178px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .jumbotron h1 {
@@ -92,4 +93,25 @@ body {
 
 .jumbotron button:hover {
     transform: rotateZ(10deg);
+}
+
+/* About Me */
+.about-me {
+    background-color: #3693d6;
+    margin-top: -32px;
+    height: 576px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 105px 278px 0px 278px !important;
+}
+
+.about-me h2 {
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.about-me p {
+    font-size: 42px;
+    color: #ffffff;
 }

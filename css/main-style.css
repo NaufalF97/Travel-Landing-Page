@@ -1,0 +1,55 @@
+/* General */
+body {
+    font-family: 'Lato' !important;
+}
+/* Navbar */
+.navbar {
+    padding: 45px 140px !important;
+    z-index: 99;
+}
+
+.navbar-brand img {
+    width: 122px;
+    height: 58px;
+}
+
+.navbar-brand {
+    font-size: 52px !important;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-brand span {
+    color: #9bc0ff;
+}
+
+.navbar-nav a {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #ffffff !important;
+}
+
+.navbar-nav a.home:hover::after,
+.navbar-nav a.about:hover::after,
+.navbar-nav a.contact:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #ffffff;
+    width: 40%;
+    margin: auto;
+}
+
+.navbar-nav a button {
+    background-color: #ffffff;
+    color: #3693d6 !important;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 0px 32px !important;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbar-nav a:hover button {
+    background-color: #3693d6;
+    color: #ffffff !important;
+}

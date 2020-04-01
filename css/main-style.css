@@ -115,3 +115,61 @@ body {
     font-size: 42px;
     color: #ffffff;
 }
+
+/* Our Work */
+.wrap-work {
+    padding: 0px 140px ;
+    text-align: center;
+}
+
+.wrap-work .work {
+    padding: 128px 0px 0px 0px !important;
+}
+
+.wrap-work .work #work-title {
+    color: #3693d6;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 115px;
+}
+
+.house, .wolf, .snowboard, .people, .cross {
+    padding: 8px !important;
+}
+
+.wrap-snowboard {
+    position: relative;
+}
+
+.wrap-snowboard span {
+    background-color: #3693d680;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 400px;
+    padding-left: 160px;
+    padding-right: 160px;
+    opacity: 0;
+    transform: translateY(300px);
+    transition: all 0.5s ease-in-out;
+}
+
+.wrap-snowboard:hover span {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.wrap-snowboard h2 {
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.wrap-snowboard span p {
+    font-size: 32px;
+    color: #ffffff;
+}

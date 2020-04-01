@@ -139,6 +139,7 @@ body {
 
 .wrap-snowboard {
     position: relative;
+    overflow: hidden;
 }
 
 .wrap-snowboard span {
@@ -153,8 +154,8 @@ body {
     padding-left: 160px;
     padding-right: 160px;
     opacity: 0;
-    transform: translateY(300px);
-    transition: all 0.5s ease-in-out;
+    transform: translateY(1000px);
+    transition: all 0.7s ease-in-out;
 }
 
 .wrap-snowboard:hover span {
@@ -172,4 +173,42 @@ body {
 .wrap-snowboard span p {
     font-size: 32px;
     color: #ffffff;
+}
+
+/* Testimoni */
+.wrap-testi {
+    text-align: center;
+    padding: 0px 140px;
+}
+
+.wrap-testi .testi {
+    background-color: red;
+    padding-top: 120px;
+}
+
+.wrap-testi .testi h2 {
+    color: #3693d6;
+    font-weight: bold;
+    font-size: 52px;
+    margin-bottom: 40px;
+}
+
+.wrap-testi .gambar-testi img {
+    margin-bottom: 34px;
+}
+
+.wrap-testi .gambar-testi p {
+    font-size: 42px;
+    color: #3693d6;
+}
+
+.wrap-testi .gambar-testi {
+    background-color: blue;
+    padding-left: 414px;
+    padding-right: 414px;
+}
+
+.wrap-testi .gambar-testi blockquote {
+    font-size: 32px;
+    color: #3693d6;
 }

@@ -11,10 +11,11 @@ body {
     src: url(../font/VictogramsDemo.ttf);
     font-family: 'bloom';
 }
+
 /* Navbar */
 .navbar {
-    padding: 45px 140px !important;
-    z-index: 99;
+    padding: 0px 140px !important;
+    margin-top: 45px !important;
 }
 
 .navbar-brand img {
@@ -29,37 +30,39 @@ body {
 }
 
 .navbar-brand span {
-    color: #9bc0ff;
+    color: #9bc0ff !important;
 }
 
 .navbar-nav a {
     font-size: 32px;
-    font-weight: bold;
-    margin-right: 20px;
     color: #ffffff !important;
+    font-weight: bold;
+    margin-left: 15px;
 }
 
-.navbar-nav a.home:hover::after,
-.navbar-nav a.about:hover::after,
-.navbar-nav a.contact:hover::after {
+.navbar-nav .home:hover::after,
+.navbar-nav .about:hover::after,
+.navbar-nav .contact:hover::after {
     content: "";
     display: block;
-    border-bottom: 2px solid #ffffff;
-    width: 40%;
+    border-bottom: solid 2px #ffffff;
+    width: 30%;
     margin: auto;
 }
 
-.navbar-nav a button {
-    background-color: #ffffff;
+.navbar-nav button {
+    background-color: #ffffff !important;
     color: #3693d6 !important;
+    border-color: none;
     border-radius: 30px;
+    padding: 0px 40px;
+    height: 60px;
     font-weight: bold;
-    padding: 0px 32px !important;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.1s linear;
 }
 
-.navbar-nav a:hover button {
-    background-color: #3693d6;
+.navbar-nav button:hover {
+    background-color: #3693d6 !important;
     color: #ffffff !important;
 }
 
@@ -69,13 +72,15 @@ body {
     background-size: cover;
     width: 100%;
     height: 1076px;
-    margin-top: -178px;
+    margin-top: 0px;
+    padding-top: 0px !important;
     text-align: center;
     margin-bottom: 0px;
+    overflow: hidden !important;
 }
 
 .jumbotron h1 {
-    margin-top: 272px;
+    margin-top: 237px;
     text-align: center;
     font-family: 'bloom';
     color: #ffffff;
@@ -84,7 +89,7 @@ body {
     text-shadow: 0px 3px 6px #00000030;
 }
 
-.jumbotron button {
+.jumbotron button.work-btn {
     width: 235px;
     height: 67px;
     background-color: #3693d6;
@@ -92,10 +97,10 @@ body {
     border-radius: 50px;
     font-size: 32px;
     font-weight: bold;
-    margin-top: 184px;
+    margin-top: 154px;
 }
 
-.jumbotron button:hover {
+.jumbotron button.work-btn:hover {
     transform: rotateZ(10deg);
 }
 

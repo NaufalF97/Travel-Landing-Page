@@ -170,9 +170,238 @@
     }
 }
 
+@media (max-width: 1200px) {
+    /* Testimoni */
+    .wrap-testi .gambar-testi {
+        padding-left: 112px;
+        padding-right: 112px;
+    }
+
+    /* Footer */
+    .footer .email {
+        padding-left: 20px !important;
+    }
+
+    .footer .icons a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
 @media (max-width: 992px) {
+    /* Navbar */
+    .navbar-toggler {
+        background-color: #ffffff !important;
+        border-radius: 10px !important;
+    }
+
+    .navbar-nav .home:hover::after,
+    .navbar-nav .about:hover::after,
+    .navbar-nav .contact:hover::after {
+        content: "";
+        display: block;
+        border-bottom: solid 2px #ffffff;
+        width: 5%;
+        margin: auto;
+    }
+
+    /* Our Work */
     .house img, .wolf img, .snowboard img, .people img, .cross img {
         width: 100% !important;
         height: 100% !important;
+    }
+
+    /* Footer */
+    .footer .col_fl {
+        margin-bottom: 40px;
+    }
+
+    .footer .location,
+    .footer .email,
+    .footer .phone {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+
+    .wrap-footer #copyright {
+        margin-top: 120px;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 850px) {
+    /* About Me */
+    .about-me {
+        padding: 60px 100px 0px 100px !important;
+    }
+
+    /* Our Work */
+    .wrap-snowboard span {
+        padding-top: 5%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .wrap-snowboard h2 {
+        font-size: 27px;
+    }
+
+    .wrap-snowboard span p {
+        font-size: 19px;
+    }
+
+    .wrap-snowboard span button {
+        font-size: 19px;
+        margin-top: 15px;
+        padding: 0px 30px;
+    }
+
+    /* Footer */
+    .wrap-footer #copyright {
+        margin-top: 90px;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    /* About Me */
+    .about-me {
+        padding: 40px 100px 10px 100px !important;
+        height: 300px;
+    }
+
+    .about-me h2 {
+        font-size: 27px;
+    }
+
+    .about-me p {
+        font-size: 19px;
+    }
+
+    /* Testimoni */
+    .wrap-testi .gambar-testi {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .wrap-testi .gambar-testi blockquote {
+        font-size: 19px;
+    }
+
+    /* Our Work */
+    .wrap-snowboard span {
+        padding-top: 5%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .wrap-snowboard h2 {
+        font-size: 22px;
+    }
+
+    .wrap-snowboard span p {
+        font-size: 14px;
+    }
+
+    .wrap-snowboard span button {
+        font-size: 14px;
+        margin-top: 8px;
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width: 610px) {
+    /* Navbar */
+    .navbar-toggler {
+        background-color: #ffffff !important;
+        border-radius: 10px !important;
+        width: 30px;
+        height: 30px;
+        padding: 0px !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 30px !important;
+        height: 20px !important;
+    }
+
+    .navbar-brand {
+        font-size: 27px !important;
+    }
+
+    .navbar-brand img {
+        width: 70px;
+        height: 30px;
+    }
+
+    .navbar-nav a {
+        font-size: 17px;
+    }
+
+    .navbar-nav button {
+        height: 30px;
+        padding: 0px 20px;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        height: 660px;
+    }
+
+    .jumbotron h1 {
+        font-size: 80px;
+        font-style: italic;
+        margin-top: 100px;
+    }
+
+    .jumbotron button.work-btn {
+        font-size: 17px;
+        width: 160px;
+        height: 45px;
+        margin-top: 40px;
+    }
+
+    /* About Me */
+    .about-me {
+        padding: 40px 50px 0px 50px !important;
+        height: 300px;
+    }
+
+    /* Our-work */
+    .wrap-work {
+        padding: 0px 40px !important;
+    }
+
+    .wrap-snowboard span {
+        padding-top: 5%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .wrap-snowboard h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .wrap-snowboard span p {
+        font-size: 14px;
+    }
+
+    .wrap-snowboard span button {
+        font-size: 14px;
+        margin-top: 8px;
+        padding: 0px 30px;
+    }
+
+    /* Testimoni */
+    .wrap-testi {
+        padding: 0px 40px !important;
+        margin-bottom: 100px;
+    }
+
+    /* Footer */
+    .wrap-footer #copyright {
+        margin-top: 90px;
+        font-size: 0.7em;
     }
 }

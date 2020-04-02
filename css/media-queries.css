@@ -1,7 +1,7 @@
 @media (max-width: 1368px) {
     /* Navbar */
     .navbar {
-        padding: 35px 50px !important;
+        padding: 0px 50px !important;
     }
 
     .navbar-brand {
@@ -17,20 +17,161 @@
         font-size: 22px;
     }
 
+    .navbar-nav button {
+        height: 40px;
+        padding: 0px 30px;
+    }
+
     /* Jumbotron */
     .jumbotron {
-        height: 720px;
+        height: 640px;
     }
 
     .jumbotron h1 {
-        font-size: 125px;
-        margin-top: 190px;
+        font-size: 115px;
+        margin-top: 100px;
     }
 
-    .jumbotron button {
+    .jumbotron button.work-btn {
         font-size: 22px;
-        width: 180px;
-        height: 50px;
-        margin-top: 60px;
+        width: 160px;
+        height: 45px;
+        margin-top: 40px;
+    }
+
+    /* About Me */
+    .about-me {
+        padding: 80px 178px 0px 178px !important;
+        height: 376px;
+    }
+
+    .about-me h2 {
+        font-size: 32px;
+    }
+
+    .about-me p {
+        font-size: 25px;
+    }
+
+    /* Our Work */
+    .wrap-work {
+        padding: 0px 90px;
+    }
+
+    .wrap-work .work {
+        padding-top: 90px !important;
+    }
+
+    .wrap-work .work #work-title {
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+
+    .house, .wolf, .snowboard, .people, .cross {
+        padding: 4px !important;
+    }
+
+    .house img, .wolf img {
+        height: 300px !important;
+    }
+
+    .snowboard img {
+        height: 500px !important;
+    }
+
+    .people img, .cross img {
+        height: 246px !important;
+    }
+
+    .wrap-snowboard span {
+        padding-top: 17%;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .wrap-snowboard h2 {
+        font-size: 32px;
+    }
+
+    .wrap-snowboard span p {
+        font-size: 22px;
+    }
+
+    .wrap-snowboard span button {
+        font-size: 22px;
+        margin-top: 30px;
+        padding: 0px 30px;
+    }
+
+    /* Testimoni */
+    .wrap-testi {
+        padding: 0px 90px;
+    }
+
+    .wrap-testi .testi {
+        padding-top: 100px;
+    }
+
+    .wrap-testi .testi h2 {
+        font-size: 32px;
+    }
+
+    .wrap-testi .gambar-testi img {
+        width: 165px !important;
+        height: 165px !important;
+    }
+
+    .wrap-testi .gambar-testi p {
+        font-size: 25px;
+    }
+
+    .wrap-testi .gambar-testi {
+        padding-left: 312px;
+        padding-right: 312px;
+    }
+
+    .wrap-testi .gambar-testi blockquote {
+        font-size: 22px;
+    }
+
+    /* Footer */
+    .wrap-footer {
+        padding: 67px 90px 10px 90px;
+    }
+
+    .footer .col_fl a {
+        font-size: 27px;
+    }
+
+    .footer .col_fl a img {
+        width: 100px !important;
+        height: 38px !important;
+    }
+
+    .footer .location h3,
+    .footer .email h3,
+    .footer .phone h3 {
+        font-size: 22px;
+    }
+
+    .footer .location p,
+    .footer .email p,
+    .footer .phone p {
+        font-size: 15px;
+    }
+
+    .footer .icons a {
+        font-size: 2em !important;
+    }
+
+    .wrap-footer #copyright {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 992px) {
+    .house img, .wolf img, .snowboard img, .people img, .cross img {
+        width: 100% !important;
+        height: 100% !important;
     }
 }

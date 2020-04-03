@@ -278,9 +278,13 @@
     }
 
     /* Footer */
+    .wrap-footer {
+        padding: 57px 10px 10px 10px;
+    }
+
     .wrap-footer #copyright {
         margin-top: 90px;
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }
 
@@ -421,10 +425,6 @@
     }
 
     /* Footer */
-    .wrap-footer {
-        padding: 87px 10px 10px 10px;
-    }
-
     .wrap-footer #copyright {
         margin-top: 90px;
         font-size: 0.7em;
@@ -446,5 +446,247 @@
     .wrap-snowboard span button {
         font-size: 14px;
         margin-top: 0px;
+    }
+}
+
+@media (max-width: 414px) {
+    /* Navbar */
+    .navbar-brand {
+        font-size: 20px !important;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+        height: 20px;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        height: 896px;
+    }
+
+    .jumbotron h1 {
+        font-size: 95px;
+        font-style: italic;
+        margin-top: 190px;
+    }
+
+    .jumbotron button.work-btn {
+        font-size: 19px;
+        width: 160px;
+        height: 45px;
+        margin-top: 190px;
+    }
+
+    /* About Me */
+    .about-me {
+        padding: 35px 40px 0px 40px !important;
+        height: 260px;
+    }
+
+    .about-me h2 {
+        font-size: 25px;
+    }
+
+    .about-me p {
+        font-size: 17px;
+    }
+
+    /* Our Work */
+    .wrap-work .work #work-title {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .wrap-snowboard span {
+        padding-top: 2%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .wrap-snowboard span h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .wrap-snowboard span p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    /* Testimoni */
+    .wrap-testi {
+        padding: 0px 20px !important;
+        margin-bottom: 100px;
+    }
+
+    .wrap-testi .testi h2 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .wrap-testi .gambar-testi p {
+        font-size: 22px;
+    }
+
+    .wrap-testi .gambar-testi blockquote {
+        font-size: 17px;
+    }
+
+    /* Footer */
+    .footer .col_fl a {
+        font-size: 25px;
+    }
+
+    .footer .location h3,
+    .footer .email h3,
+    .footer .phone h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 375px) {
+    /* Jumbotron */
+    .jumbotron {
+        height: 770px;
+    }
+
+    .jumbotron h1 {
+        font-size: 85px;
+        margin-top: 175px;
+    }
+
+    .jumbotron button.work-btn {
+        font-size: 19px;
+        width: 160px;
+        height: 45px;
+        margin-top: 130px;
+    }
+
+    /* Our Work */
+    .wrap-work {
+        padding: 0px 15px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    /* Jumbotron */
+    .jumbotron {
+        height: 730px;
+    }
+
+    .jumbotron h1 {
+        font-size: 83px;
+        margin-top: 135px;
+    }
+
+    .jumbotron button.work-btn {
+        font-size: 19px;
+        width: 160px;
+        height: 45px;
+        margin-top: 130px;
+    }
+    /* About Me */
+    .about-me {
+        padding: 35px 20px 0px 20px !important;
+        height: 260px;
+    }
+    /* Footer */
+    .footer .col_fl a {
+        font-size: 22px;
+    }
+
+    .footer .location h3,
+    .footer .email h3,
+    .footer .phone h3 {
+        font-size: 20px;
+    }
+
+    .footer .location p,
+    .footer .email p,
+    .footer .phone p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* Navbar */
+    .navbar {
+        margin-top: 20px !important;
+        padding: 0px 20px !important;
+    }
+    
+    .navbar-brand {
+        font-size: 18px !important;
+    }
+
+    .navbar-brand img {
+        width: 35px;
+        height: 17px;
+    }
+
+    .navbar-toggler {
+        background-color: #ffffff !important;
+        border-radius: 50% !important;
+        width: 25px;
+        height: 25px;
+        padding: 0px !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 15px !important;
+        height: 20px !important;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        height: 580px;
+    }
+
+    .jumbotron h1 {
+        font-size: 73px;
+        margin-top: 125px;
+    }
+
+    .jumbotron button.work-btn {
+        font-size: 17px;
+        width: 160px;
+        height: 45px;
+        margin-top: 110px;
+    }
+
+    /* About Me */
+    .about-me {
+        padding: 35px 10px 0px 10px !important;
+        height: 260px;
+    }
+    /* Our Work */
+    .wrap-snowboard {
+        height: 170px !important;
+    }
+    .wrap-snowboard span {
+        padding-top: 2%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wrap-snowboard span h2 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .wrap-snowboard span p {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    .wrap-snowboard span button {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    /* Footer */
+    .footer-logo img {
+        width: 70px !important;
+        height: 30px !important;
     }
 }

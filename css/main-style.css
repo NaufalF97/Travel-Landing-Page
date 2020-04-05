@@ -237,6 +237,7 @@ body {
     top: 0;
     left: 0;
     color: #3693d6;
+    font-size: 35px !important;
 }
 
 .carousel-item .wrap-quote .paragraph .last {
@@ -244,6 +245,7 @@ body {
     bottom: 0;
     right: 0;
     color: #3693d6;
+    font-size: 35px !important;
 }
 
 .carousel-item .wrap-quote p {
@@ -263,25 +265,6 @@ body {
     color: #3693d6 !important;
     font-size: 44px !important;
 }
-
-/* .wrap-testi .gambar-testi img {
-    margin-bottom: 34px;
-}
-
-.wrap-testi .gambar-testi p {
-    font-size: 42px;
-    color: #3693d6;
-}
-
-.wrap-testi .gambar-testi {
-    padding-left: 414px;
-    padding-right: 414px;
-}
-
-.wrap-testi .gambar-testi blockquote {
-    font-size: 32px;
-    color: #3693d6;
-} */
 
 /* Footer */
 .wrap-footer {

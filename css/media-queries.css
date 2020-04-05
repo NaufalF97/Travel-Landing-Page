@@ -117,24 +117,6 @@
         font-size: 32px;
     }
 
-    .wrap-testi .gambar-testi img {
-        width: 165px !important;
-        height: 165px !important;
-    }
-
-    .wrap-testi .gambar-testi p {
-        font-size: 25px;
-    }
-
-    .wrap-testi .gambar-testi {
-        padding-left: 312px;
-        padding-right: 312px;
-    }
-
-    .wrap-testi .gambar-testi blockquote {
-        font-size: 22px;
-    }
-
     /* Footer */
     .wrap-footer {
         padding: 67px 90px 10px 90px;
@@ -193,9 +175,9 @@
     }
 
     /* Testimoni */
-    .wrap-testi .gambar-testi {
-        padding-left: 112px;
-        padding-right: 112px;
+    .wrap-testi .wrap-quote {
+        padding-left: 150px !important;
+        padding-right: 150px !important;
     }
 
     /* Footer */
@@ -230,6 +212,12 @@
     .house img, .wolf img, .snowboard img, .people img, .cross img {
         width: 100% !important;
         height: 100% !important;
+    }
+
+    /* Testimoni */
+    .wrap-testi .wrap-quote {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
     }
 
     /* Footer */
@@ -277,6 +265,20 @@
         padding: 0px 30px;
     }
 
+    /* Testimoni */
+    .wrap-testi .wrap-quote h2 {
+        font-size: 27px;
+    }
+
+    .wrap-testi .carousel-inner img {
+        width: 165px !important;
+        height: 165px !important;
+    }
+
+    .carousel-item .wrap-quote p {
+        font-size: 20px;
+    }
+
     /* Footer */
     .wrap-footer {
         padding: 57px 10px 10px 10px;
@@ -303,16 +305,6 @@
         font-size: 19px;
     }
 
-    /* Testimoni */
-    .wrap-testi .gambar-testi {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .wrap-testi .gambar-testi blockquote {
-        font-size: 19px;
-    }
-
     /* Our Work */
     .wrap-snowboard span {
         padding-top: 5%;
@@ -332,6 +324,24 @@
         font-size: 14px;
         margin-top: 8px;
         padding: 0px 30px;
+    }
+
+    /* Testimoni */
+    .wrap-testi {
+        padding: 0px 20px;
+    }
+
+    .wrap-testi .wrap-quote {
+        padding-left: 85px !important;
+        padding-right: 85px !important;
+    }
+
+    .carousel-item .wrap-quote .paragraph .first {
+        left: 35px;
+    }
+
+    .carousel-item .wrap-quote .paragraph .last {
+        right: 35px;
     }
 }
 
@@ -420,8 +430,23 @@
 
     /* Testimoni */
     .wrap-testi {
-        padding: 0px 40px !important;
+        padding: 0px 15px !important;
         margin-bottom: 100px;
+    }
+
+    .wrap-testi .wrap-quote {
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+
+    .carousel-item .wrap-quote p {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .carousel-item .wrap-quote .paragraph .first,
+    .carousel-item .wrap-quote .paragraph .last {
+        font-size: 20px !important;
     }
 
     /* Footer */

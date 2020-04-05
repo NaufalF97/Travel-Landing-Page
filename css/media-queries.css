@@ -576,7 +576,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 377px) {
     .navbar {
         padding: 0px 25px !important;
     }
@@ -590,11 +590,11 @@
         margin-top: 100px;
     }
 
-    .jumbotron button.work-btn {
+    .jumbotron .work-btn {
         font-size: 19px;
         width: 160px;
         height: 45px;
-        margin-top: 75spx;
+        margin-top: 5px;
     }
 
     /* Our Work */

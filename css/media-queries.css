@@ -113,8 +113,54 @@
         padding-top: 100px;
     }
 
-    .wrap-testi .testi h2 {
+    .wrap-testi .testi #judul-testi {
         font-size: 32px;
+    }
+
+    .carousel-item .wrap-quote {
+        padding-left: 250px !important;
+        padding-right: 250px !important;
+        margin-top: 25px;
+    }
+
+    .carousel-item .wrap-quote .paragraph {
+        position: relative;
+        padding: 20px 40px;
+    }
+
+    .carousel-item .wrap-quote .paragraph .first {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        color: #3693d6;
+        font-size: 35px !important;
+    }
+    
+    .carousel-item .wrap-quote .paragraph .last {
+        position: absolute !important;
+        bottom: 0;
+        right: 0;
+        color: #3693d6;
+        font-size: 35px !important;
+    }
+
+    .carousel-item .wrap-quote h2 {
+        color: #3693d6;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .carousel-item .wrap-quote p {
+        font-size: 22px;
+        color: #3693d6;
+        margin-top: 35px;
+    }
+
+    .carousel-control-prev .previous, 
+    .carousel-control-next .nexto {
+        color: #3693d6 !important;
+        font-size: 44px !important;
     }
 
     /* Footer */

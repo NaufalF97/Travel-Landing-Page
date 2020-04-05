@@ -232,11 +232,18 @@ body {
     padding: 20px 40px;
 }
 
-.carousel-item .wrap-quote .paragraph i.first {
-    display: inline-block;
+.carousel-item .wrap-quote .paragraph .first {
     position: absolute !important;
     top: 0;
     left: 0;
+    color: #3693d6;
+}
+
+.carousel-item .wrap-quote .paragraph .last {
+    position: absolute !important;
+    bottom: 0;
+    right: 0;
+    color: #3693d6;
 }
 
 .carousel-item .wrap-quote p {

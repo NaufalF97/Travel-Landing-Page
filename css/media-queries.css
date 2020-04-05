@@ -550,12 +550,18 @@
         margin-bottom: 40px;
     }
 
-    .wrap-testi .gambar-testi p {
+    .wrap-testi .wrap-quote h2 {
         font-size: 22px;
+        margin-bottom: 10px;
     }
 
-    .wrap-testi .gambar-testi blockquote {
-        font-size: 17px;
+    .wrap-testi .wrap-quote p {
+        font-size: 15px;
+    }
+
+    .wrap-testi .wrap-quote .paragraph {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 
     /* Footer */
@@ -594,6 +600,19 @@
     /* Our Work */
     .wrap-work {
         padding: 0px 15px !important;
+    }
+
+    /* Testimoni */
+    .carousel-item .wrap-quote p {
+        margin-bottom: 5px;
+    }
+
+    .carousel-item .wrap-quote .paragraph .first {
+        left: 20px;
+    }
+    
+    .carousel-item .wrap-quote .paragraph .last {
+        right: 20px;
     }
 }
 
@@ -712,6 +731,21 @@
         font-size: 13px;
         margin-top: 0px;
     }
+
+    /* Testimoni */
+    .carousel-item .wrap-quote .paragraph .first,
+    .carousel-item .wrap-quote .paragraph .last {
+        font-size: 17px !important;
+    }
+
+    .wrap-testi .wrap-quote h2 {
+        font-size: 20px;
+    }
+
+    .wrap-testi .wrap-quote p {
+        font-size: 12px;
+    }
+
     /* Footer */
     .footer-logo img {
         width: 70px !important;

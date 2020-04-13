@@ -665,7 +665,7 @@
 @media (max-width: 360px) {
     /* Jumbotron */
     .jumbotron {
-        height: 730px;
+        height: 700px;
     }
 
     .jumbotron h1 {
@@ -677,7 +677,7 @@
         font-size: 19px;
         width: 160px;
         height: 45px;
-        margin-top: 130px;
+        margin-top: 90px;
     }
     /* About Me */
     .about-me {
